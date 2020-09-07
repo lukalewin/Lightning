@@ -21,3 +21,6 @@ footer {
 	font-size: 90%;
 }
 
+::selection {
+  background: rgb(60,60,60);
+}
