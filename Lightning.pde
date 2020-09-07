@@ -13,7 +13,7 @@ void setup()
 }
 void draw()
 {
-  fill(0, 0, 0, 10);
+  fill(0, 0, 0, 5);
   rect(-5, -5, 700, 700);
   stroke(((int) (Math.random() * 256)),((int) (Math.random() * 256)),((int) (Math.random() * 256)));
   while (endY < 600) {
