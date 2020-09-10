@@ -18,6 +18,7 @@ void draw()
   stroke(((int) (Math.random() * 256)),((int) (Math.random() * 256)),((int) (Math.random() * 256)));
   while (endY < 600) {
     startX = ((int) (Math.random() * 601));
+    startY = ((int) (Math.random() * 601));
     endX = startX + ((int) ((Math.random() * 20) - 10));
     endY = startY + ((int) (Math.random() * 10));
     line(startX, startY, endX, endY);
