@@ -27,6 +27,10 @@ header {
 	text-align: center;
 	width: 250px;
 	cursor: pointer;
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	outline: none;
 }
 
 .btn-reset {
